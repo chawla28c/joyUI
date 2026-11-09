@@ -1,0 +1,29 @@
+.auth-page {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    padding: 16px;
+}
+
+.auth-card {
+    width: min(100%, 360px);
+    margin: 0;
+    padding: 24px;
+}
+
+.auth-card h1 {
+    margin: 16px 0;
+}
+
+.auth-card label {
+    margin-bottom: 14px;
+}
+
+.auth-card button {
+    width: 100%;
+}
+
+.auth-card [role="alert"] {
+    color: #9a2525;
+    margin-bottom: 12px;
+}
