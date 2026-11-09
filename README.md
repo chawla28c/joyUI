@@ -1,5 +1,13 @@
 # JoyUi
 
+## CodeIgniter setup
+
+CodeIgniter 4.7.6 lives at the project root. Set Apache’s document root to the absolute path of `JoyUi/public/`. For local development, run `php spark serve` from `JoyUi/`.
+
+MVC files belong in `app/Controllers/`, `app/Models/`, and `app/Views/`. The auth schema is in `database/joyui-auth.sql`. The auth screens still need to be integrated into CodeIgniter.
+
+## Static UI demo
+
 Original, dependency-free, mobile-first admin UI starter. Version 0.3.
 
 Open `index.html` directly in your browser. No installation or build step is required.
